@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         exp.getText();
+        em.getText();
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
