@@ -42,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
                 SK=skill.getText().toString();
                 EXP=exp.getText().toString();
 
-                intent.putExtra("name",NM);
-              intent.putExtra("email",EM);
-              intent.putExtra("phone",PH);
-                intent.putExtra("description",DS);
+                intent.putExtra("Name",NM);
+              intent.putExtra("Mail",EM);
+              intent.putExtra("Phone",PH);
+                intent.putExtra("Description",DS);
                 intent.putExtra("degree",DG);
                 intent.putExtra("skill",SK);
                 intent.putExtra("experience",EXP);
