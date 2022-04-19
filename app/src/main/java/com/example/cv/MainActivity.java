@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this,cv.class);
 
 
-
+        exp.getText();
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
               intent.putExtra("Mail",EM);
               intent.putExtra("Phone",PH);
                 intent.putExtra("Description",DS);
-                intent.putExtra("degree",DG);
-                intent.putExtra("skill",SK);
-                intent.putExtra("experience",EXP);
+                intent.putExtra("Degree",DG);
+                intent.putExtra("Skill",SK);
+                intent.putExtra("Experience",EXP);
                 startActivity(intent);
             }
         });
