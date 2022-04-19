@@ -29,9 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent=new Intent(MainActivity.this,cv.class);
 
-
-        exp.getText();
-        em.getText();
+        
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
