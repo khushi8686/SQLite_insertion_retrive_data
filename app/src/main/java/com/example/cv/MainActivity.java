@@ -26,10 +26,9 @@ public class MainActivity extends AppCompatActivity {
         skill=findViewById(R.id.skills);
         exp=findViewById(R.id.exp);
         submit=findViewById(R.id.submite);
-
         Intent intent=new Intent(MainActivity.this,cv.class);
 
-        
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,10 +50,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
     }
 }
