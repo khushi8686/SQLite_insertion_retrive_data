@@ -8,6 +8,18 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/retrive_data"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/backgroundc"
+        android:text="Retrive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exp" />
+
     <EditText
         android:id="@+id/exp"
         android:layout_width="222dp"
@@ -142,7 +154,7 @@
         android:id="@+id/submite"
         android:layout_width="91dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/backgroundc"
         android:text="Submit"
